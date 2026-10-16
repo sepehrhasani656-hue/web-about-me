@@ -1,0 +1,282 @@
+body {
+    background-color: #282C33;
+}
+@font-face {
+    font-family: shabnam;
+    src: url(font/FiraCode-VariableFont_wght.ttf);
+}
+*{
+    font-family: shabnam;
+}
+.header-web {
+    width: 1400px;
+    height: 80px;
+    background-color: transparent;
+    position: fixed;
+}
+.img-logo {
+    width: 80px;
+    position: relative;
+    top: 20px;
+    left: 210px;
+}
+.i {
+    color: #B365C7;
+}
+.ul-web {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-top: -20px;
+    margin-right: 200px;
+}
+.li {
+    color: #ABAD9C;
+}
+.li:hover {
+    color: #F1FFFF;
+}
+a {
+    text-decoration: none;
+}
+.p-project {
+    font-size: 35px;
+    color: #FFFFFF;
+    position: relative;
+    left: 200px;
+}
+.i-project {
+    color: #B365C7;
+}
+.hr {
+    border: none;
+    height: 4px;
+    background-color: #B365C7;
+    border-radius: 10px;
+    width: 30%;
+    margin: 20px auto;
+    position: relative;
+    top: -60px;
+    right: 80px;
+  
+}
+.a-view {
+    color: #F8FFE5;
+}
+.i-a {
+    font-size: 25px;
+}
+.div-a {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: -95px;
+}
+.div-start-div {
+    display: flex;
+    justify-content: start;
+    margin-left: 35px;
+    margin-top: -100px;
+    position: fixed;
+}
+.div-start {
+    width: 1px;
+    height: 200px;
+    background-color: #ABB2BF;
+}
+.img1 {
+    width: 25px;
+    position: relative;
+    top: 210px;
+    right: 10px;
+}
+.button-about {
+    width: 500px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: transparent;
+    border: 1px solid #ABB2BF;
+}
+.div-button-about {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.i2 {
+    color: #56E6F0;
+}
+.div-left {
+    position: relative;
+    top: -115px;
+    left: 450px;
+}
+.div-right {
+    position: relative;
+    top: -50px;
+    left: 860px ;
+}
+.div-project {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.img-project-one {
+    width: 280px;
+    height: 150px
+    ;
+}
+.div-img-project {
+    width: 280px;
+    height: 300px;
+    border: 1px  solid#ABB2BF; 
+}
+.hr2 {
+    margin-top: -5px;
+}
+.p-div-project {
+    color: #ABB2BF;
+    margin-top: -1px;
+}
+.p-div-div {
+    display: flex;
+    justify-content: center;
+}
+.p-big {
+    font-weight: bold;
+    color:  #FFFFFF;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+.p-small{
+     color: #595E67;   
+     font-size: 20px;
+     margin-left: 10px;
+     margin-top: -15px;
+}
+.button-live {
+    border: 1px solid #C778DD;
+    background-color: transparent;
+    color: #FFFFFF;
+    width: 100px;
+    height: 30px;
+    font-size: 15px
+    ;
+    margin-left: 10px;
+    position: relative;
+    top: -10px;
+}
+.i3{
+   color: aquamarine; 
+}
+.p-king {
+    color: #FFFFFF;
+    font-size: 30px
+    ;
+}
+.div-king {
+    display: flex;
+    justify-content: flex-start;
+}
+.p-about-me {
+    font-size: 38px;
+    color: #fff;
+    margin-top: 20px;
+}
+.i-bold {
+    color: #C778DD;
+}
+.img-js {
+    width: 390px;
+}
+.div-img-about{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -200px;
+    margin-right: 100px;
+}
+.img-sepehr {
+    width: 340px;
+    height: 450px;
+    border-radius: 20px;
+}
+.down-img-header {
+    width: 320px;
+    height: 20px;
+    border: 1px solid #ABB2BF;
+    padding: 10px;
+    border-radius: 20px;
+    color: #86838A;
+}
+.div-div-div {
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+}
+.div-im {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+.p-old {
+    font-size: 19px;
+    color: aliceblue;
+    margin-top: -10px;
+}
+.div-king2 {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: -240px;
+}
+.div-skills {
+    width: 250px;
+    height: 100px;
+    border: 1px solid #ABB2BF;
+    border-radius: 10px;
+}
+.div-div-skills {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.html {
+    font-size: 50px;
+}
+.div-html {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #E5D5FF;
+}
+.css {
+    color: #C8A2FF;  
+    font-size: 50px;
+}
+.div-css{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.js {
+    font-size: 50px;
+    color: #FF77C8;
+}
+.div-js {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+.p-footer {
+    font-size: 34px;
+}
+.div-king3 {
+    display: flex;
+    justify-content: center;
+}
+.p-footer a {
+    color: whitesmoke;
+}
